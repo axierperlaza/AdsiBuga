@@ -17,6 +17,8 @@ while True:
     print(recibido)
 
     
-    obj.close()
+    
 
     print("Conexión cerrada")
+
+obj.close()

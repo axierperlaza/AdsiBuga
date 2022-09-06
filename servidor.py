@@ -19,4 +19,5 @@ while True:
     msg_toSend=("mensaje recibido desde el cliente como estas Jerry")
     cli.send(msg_toSend.encode('ascii'))
 
-    cli.close()
+
+cli.close()
