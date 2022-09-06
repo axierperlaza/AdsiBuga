@@ -1,4 +1,4 @@
-host = 'localhost'
+host = '172.18.12.184'
 port = 3306
 import socket
 
@@ -9,7 +9,7 @@ print("Conectado al servidor")
 
 while True:
 
-    mens = input("Mensaje desde Cliente a Servidor >> ")
+    mens = input("Mensaje desde Cliente a Servidor : ")
 
     obj.send(mens.encode('ascii'))
     
